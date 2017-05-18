@@ -1,0 +1,22 @@
+hash: 830478716fd5b2639dd348abaebfd67003ac94eb2f1aa6b68c1097dfbc6dff39
+updated: 2017-06-04T16:22:18.191496633-04:00
+imports:
+- name: github.com/certifi/gocertifi
+  version: a9c833d2837d3b16888d55d5aafa9ffe9afb22b0
+- name: github.com/getsentry/raven-go
+  version: 4fa2ac0d29f801e79a063c0da82d37b5ff2873b2
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: bcd8bc72b08df0f70df986b97f95590779502d31
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/Unix4ever/statsd
+  version: a8219f1fb9d8003a2ac5ffb1268630961a9ac84b
+  subpackages:
+  - event
+- name: gopkg.in/natefinch/lumberjack.v2
+  version: a96e63847dc3c67d17befa69c303767e2f84e54f
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
+testImports: []

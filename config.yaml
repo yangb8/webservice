@@ -1,0 +1,18 @@
+---
+log:
+    location: 0
+sentry:
+    enabled: false
+    dsn: http://*****@<host>:<port>/<project>
+statsd:
+    enabled: false
+    address: localhost:8125
+storage:
+    kind: s3
+    local:
+        path: /tmp/test/
+    s3:
+        url:  object.ecstestdrive.com
+        id:   130782548202374325@ecstestdrive.emc.com
+        key:  fwbJxm9vLsdBPBcpqX+M54l8FgD5CKT6IQN8iNur
+        bucket: test100
